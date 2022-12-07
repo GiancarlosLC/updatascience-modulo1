@@ -1,0 +1,11 @@
+{
+	"name": "raw_know_core",
+	"properties": {
+		"folder": {
+			"name": "01_raw_source"
+		},
+		"annotations": [],
+		"lastPublishTime": "2022-12-07T23:17:31Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
