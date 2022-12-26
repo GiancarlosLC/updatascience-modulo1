@@ -1,0 +1,42 @@
+{
+	"name": "ds_source_csv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FileServer_LinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"application": {
+				"type": "string"
+			},
+			"filename": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": {
+					"value": "@concat(dataset().filename,'.csv')\r\n",
+					"type": "Expression"
+				},
+				"folderPath": {
+					"value": "@dataset().application",
+					"type": "Expression"
+				}
+			},
+			"columnDelimiter": "|",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "\"Id\"|\"CreationDate\"|\"DownVotes\"|\"LastAccessDate\"|\"Reputation\"|\"UpVotes\"|\"Views\"|\"AccountId\"|\"Email\"",
+				"type": "String"
+			}
+		]
+	}
+}
