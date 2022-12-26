@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Source_to_raw",
+				"name": "cource_to_raw",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -38,116 +38,6 @@
 					"enableStaging": false,
 					"translator": {
 						"type": "TabularTranslator",
-						"mappings": [
-							{
-								"source": {
-									"name": "Id",
-									"type": "String",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "Id",
-									"type": "String",
-									"physicalType": "UTF8"
-								}
-							},
-							{
-								"source": {
-									"name": "CreationDate",
-									"type": "String",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "CreationDate",
-									"type": "String",
-									"physicalType": "UTF8"
-								}
-							},
-							{
-								"source": {
-									"name": "DownVotes",
-									"type": "String",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "DownVotes",
-									"type": "String",
-									"physicalType": "UTF8"
-								}
-							},
-							{
-								"source": {
-									"name": "LastAccessDate",
-									"type": "String",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "LastAccessDate",
-									"type": "String",
-									"physicalType": "UTF8"
-								}
-							},
-							{
-								"source": {
-									"name": "Reputation",
-									"type": "String",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "Reputation",
-									"type": "String",
-									"physicalType": "UTF8"
-								}
-							},
-							{
-								"source": {
-									"name": "UpVotes",
-									"type": "String",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "UpVotes",
-									"type": "String",
-									"physicalType": "UTF8"
-								}
-							},
-							{
-								"source": {
-									"name": "Views",
-									"type": "String",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "Views",
-									"type": "String",
-									"physicalType": "UTF8"
-								}
-							},
-							{
-								"source": {
-									"name": "AccountId",
-									"type": "String",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "AccountId",
-									"type": "String",
-									"physicalType": "UTF8"
-								}
-							},
-							{
-								"source": {
-									"name": "Email",
-									"type": "String",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "Email",
-									"type": "String",
-									"physicalType": "UTF8"
-								}
-							}
-						],
 						"typeConversion": true,
 						"typeConversionSettings": {
 							"allowDataTruncation": true,
@@ -160,8 +50,8 @@
 						"referenceName": "Ds_Source_csv",
 						"type": "DatasetReference",
 						"parameters": {
-							"application": "users",
-							"filename": "sk_users"
+							"application": "data",
+							"filename": "users\\sk_users"
 						}
 					}
 				],
