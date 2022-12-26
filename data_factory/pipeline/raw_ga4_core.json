@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "cource_to_raw",
+				"name": "source_to_raw",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
