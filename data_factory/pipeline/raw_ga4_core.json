@@ -171,7 +171,7 @@
 						"type": "DatasetReference",
 						"parameters": {
 							"application": "nuevo",
-							"filename": "data/usuarios"
+							"filename": "data"
 						}
 					}
 				]
