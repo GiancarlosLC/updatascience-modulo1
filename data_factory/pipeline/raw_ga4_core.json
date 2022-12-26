@@ -170,8 +170,8 @@
 						"referenceName": "Ds_Raw_parquet",
 						"type": "DatasetReference",
 						"parameters": {
-							"application": "data",
-							"filename": "users/users"
+							"application": "users",
+							"filename": "users"
 						}
 					}
 				]
