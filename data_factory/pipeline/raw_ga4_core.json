@@ -53,12 +53,12 @@
 							},
 							{
 								"source": {
-									"name": "NEGOCIACIÓN",
+									"name": "NEGOCIACION",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "NEGOCIACIÓN",
+									"name": "NEGOCIACION",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
@@ -101,36 +101,36 @@
 							},
 							{
 								"source": {
-									"name": "NEGOCIACIÓN ATRASADA",
+									"name": "NEGOCIACION ATRASADA",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "NEGOCIACIÓN ATRASADA",
+									"name": "NEGOCIACION ATRASADA",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "COMPAÑIA",
+									"name": "COMPANIA",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "COMPAÑIA",
+									"name": "COMPANIA",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "COMPAÑIA ESTADO",
+									"name": "COMPANIA ESTADO",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "COMPAÑIA ESTADO",
+									"name": "COMPANIA ESTADO",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
@@ -185,12 +185,12 @@
 							},
 							{
 								"source": {
-									"name": "FECHA DE CREACIÓN",
+									"name": "FECHA DE CREACION",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "FECHA DE CREACIÓN",
+									"name": "FECHA DE CREACION",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
@@ -209,12 +209,12 @@
 							},
 							{
 								"source": {
-									"name": "MONTO $",
+									"name": "MONTO",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "MONTO $",
+									"name": "MONTO",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
@@ -257,12 +257,12 @@
 							},
 							{
 								"source": {
-									"name": "# VISITAS",
+									"name": "VISITAS",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "# VISITAS",
+									"name": "VISITAS",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
