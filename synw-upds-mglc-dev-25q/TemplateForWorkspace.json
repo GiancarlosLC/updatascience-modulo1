@@ -1,0 +1,36 @@
+{
+	"$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"type": "string",
+			"metadata": "Nombre del área de trabajo",
+			"defaultValue": "synw-upds-mglc-dev-25q"
+		}
+	},
+	"variables": {
+		"workspaceId": "[concat('Microsoft.Synapse/workspaces/', parameters('workspaceName'))]"
+	},
+	"resources": [
+		{
+			"name": "[concat(parameters('workspaceName'), '/SQL script 1')]",
+			"type": "Microsoft.Synapse/workspaces/sqlscripts",
+			"apiVersion": "2019-06-01-preview",
+			"properties": {
+				"content": {
+					"query": "create database updatalakehouse;\nGO\nuse updatalakehouse;\ngo\n\nCREATE MASTER KEY ENCRYPTION BY PASSWORD ='123456789Abcde*'\n\nCREATE DATABASE SCOPED CREDENTIAL UPUserIdentity WITH IDENTITY='SHARED ACCESS SIGNATURE',\nSECRET='?sv=2021-06-08&ss=bfqt&srt=sco&sp=rwdlacupyx&se=2023-01-26T01:24:06Z&st=2022-12-27T17:24:06Z&spr=https&sig=h%2BaQ7SuL06szNP98acHPOHJhZIK9tFJK3nZzmAWtm1c%3D'\nGO\n\nCREATE EXTERNAL DATA SOURCE ExternalUPDataSource\nWITH(\n    LOCATION='https://dlsupdsmglcdeve4d.dfs.core.windows.net',\n    CREDENTIAL=UPUserIdentity\n);\n\n\nselect * \nfrom OPENROWSET(BULK'/raw/sharedknow/users/users.parquet',\ndata_source='ExternalUPDataSource',\nformat='PARQUET') AS [FILE]\nGO;",
+					"metadata": {
+						"language": "sql"
+					},
+					"currentConnection": {
+						"databaseName": "updatalakehouse",
+						"poolName": "Built-in"
+					},
+					"resultLimit": 5000
+				},
+				"type": "SqlQuery"
+			},
+			"dependsOn": []
+		}
+	]
+}
