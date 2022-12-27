@@ -290,18 +290,6 @@
 									"type": "String",
 									"physicalType": "UTF8"
 								}
-							},
-							{
-								"source": {
-									"name": "LINK",
-									"type": "String",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "LINK",
-									"type": "String",
-									"physicalType": "UTF8"
-								}
 							}
 						],
 						"typeConversion": true,
