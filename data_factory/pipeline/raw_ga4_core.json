@@ -377,24 +377,24 @@
 							},
 							{
 								"source": {
-									"name": "Eq_Linea",
+									"name": "EqLinea",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Eq_Linea",
+									"name": "EqLinea",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "Eq_UN",
+									"name": "EqUN",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Eq_UN",
+									"name": "EqUN",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
