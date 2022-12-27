@@ -41,252 +41,516 @@
 						"mappings": [
 							{
 								"source": {
-									"name": "ID",
+									"name": "Linea",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "ID",
+									"name": "Linea",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "NEGOCIACION",
+									"name": "FechaDocumento",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "NEGOCIACION",
+									"name": "FechaDocumento",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "CATEGORIA_DESCRIPCION",
+									"name": "TipoDocumento",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "CATEGORIA_DESCRIPCION",
+									"name": "TipoDocumento",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "ETAPA",
+									"name": "NumeroDocumento",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "ETAPA",
+									"name": "NumeroDocumento",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "FASE",
+									"name": "CodigoProducto",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "FASE",
+									"name": "CodigoProducto",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "NEGOCIACION ATRASADA",
+									"name": "NombreProducto",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "NEGOCIACION ATRASADA",
+									"name": "NombreProducto",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "COMPANIA",
+									"name": "Marca",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "COMPANIA",
+									"name": "Marca",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "COMPANIA ESTADO",
+									"name": "CodigoSpringVendedor",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "COMPANIA ESTADO",
+									"name": "CodigoSpringVendedor",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "CANAL",
+									"name": "NombreVendedor",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "CANAL",
+									"name": "NombreVendedor",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "SECTOR",
+									"name": "CantidadPedida",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "SECTOR",
+									"name": "CantidadPedida",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "ASESOR COMERCIAL",
+									"name": "PxUniSoles",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "ASESOR COMERCIAL",
+									"name": "PxUniSoles",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "FECHA DE INICIO",
+									"name": "PxUniDolares",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "FECHA DE INICIO",
+									"name": "PxUniDolares",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "FECHA DE CREACION",
+									"name": "MontoTotalSoles",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "FECHA DE CREACION",
+									"name": "MontoTotalSoles",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "FECHA DE CIERRE",
+									"name": "MontoTotalDolares",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "FECHA DE CIERRE",
+									"name": "MontoTotalDolares",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "MONTO",
+									"name": "Moneda",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "MONTO",
+									"name": "Moneda",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "PROBABILIDAD",
+									"name": "Familia",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "PROBABILIDAD",
+									"name": "Familia",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "OPORTUNIDAD",
+									"name": "PromedioSoles",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "OPORTUNIDAD",
+									"name": "PromedioSoles",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "PRIORIDAD",
+									"name": "TipoCambio",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "PRIORIDAD",
+									"name": "TipoCambio",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "VISITAS",
+									"name": "PromedioDolares",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "VISITAS",
+									"name": "PromedioDolares",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "RESPONSABLE DE CIERRE",
+									"name": "SubFamilia",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "RESPONSABLE DE CIERRE",
+									"name": "SubFamilia",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "MOTIVO DE CIERRE",
+									"name": "Sector",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "MOTIVO DE CIERRE",
+									"name": "Sector",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "RUCCliente",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "RUCCliente",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "NombreCliente",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "NombreCliente",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "Sucursal",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Sucursal",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "NumeroPicking",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "NumeroPicking",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "FechaPicking",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "FechaPicking",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "CodigoAlmacen",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "CodigoAlmacen",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "DescripcionAlmacen",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "DescripcionAlmacen",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "Eq_Linea",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Eq_Linea",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "Eq_UN",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Eq_UN",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "NumeroMes",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "NumeroMes",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "NombreMes",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "NombreMes",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "Anho",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Anho",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "Canal",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Canal",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "Segmento",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Segmento",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "CostoPromTotalSoles",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "CostoPromTotalSoles",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "CostoPromTotalDolares",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "CostoPromTotalDolares",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "CodigoSapVendedor",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "CodigoSapVendedor",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "TransfGratuita",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "TransfGratuita",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "UnidadMedida",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "UnidadMedida",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "CodigoMoneda",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "CodigoMoneda",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "Precio",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Precio",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "CodigoCliente",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "CodigoCliente",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
