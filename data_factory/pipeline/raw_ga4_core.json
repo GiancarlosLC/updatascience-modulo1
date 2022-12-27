@@ -1,6 +1,182 @@
 {
 	"name": "raw_ga4_core",
 	"properties": {
+		"activities": [
+			{
+				"name": "source_to_raw",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "DelimitedTextSource",
+						"storeSettings": {
+							"type": "FileServerReadSettings",
+							"recursive": true,
+							"enablePartitionDiscovery": false
+						},
+						"formatSettings": {
+							"type": "DelimitedTextReadSettings"
+						}
+					},
+					"sink": {
+						"type": "ParquetSink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings"
+						},
+						"formatSettings": {
+							"type": "ParquetWriteSettings"
+						}
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "Id",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Id",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "CreationDate",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "CreationDate",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "DownVotes",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "DownVotes",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "LastAccessDate",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "LastAccessDate",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "Reputation",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Reputation",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "UpVotes",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "UpVotes",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "Views",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Views",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "AccountId",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "AccountId",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "Email",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Email",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							}
+						],
+						"typeConversion": true,
+						"typeConversionSettings": {
+							"allowDataTruncation": true,
+							"treatBooleanAsNumber": false
+						}
+					}
+				},
+				"inputs": [
+					{
+						"referenceName": "ds_source_csv",
+						"type": "DatasetReference",
+						"parameters": {
+							"application": "sharedknow",
+							"filename": "users\\sk_users"
+						}
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "ds_raw_parquet",
+						"type": "DatasetReference",
+						"parameters": {
+							"application": "sharedknow",
+							"filename": "users/users"
+						}
+					}
+				]
+			}
+		],
 		"folder": {
 			"name": "01_raw_source"
 		},
