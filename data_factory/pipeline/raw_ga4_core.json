@@ -53,12 +53,12 @@
 							},
 							{
 								"source": {
-									"name": "NEGOCIACIÓN",
+									"name": "NEGOCIACION",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "NEGOCIACIÓN",
+									"name": "NEGOCIACION",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
@@ -101,24 +101,24 @@
 							},
 							{
 								"source": {
-									"name": "NEGOCIACIÓN ATRASADA",
+									"name": "NEGOCIACIONATRASADA",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "NEGOCIACIÓN ATRASADA",
+									"name": "NEGOCIACIONATRASADA",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "COMPAÑIA",
+									"name": "COMPANIA",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "COMPAÑIA",
+									"name": "COMPANIA",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
@@ -161,36 +161,36 @@
 							},
 							{
 								"source": {
-									"name": "FECHA DE INICIO",
+									"name": "FECHAINICIO",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "FECHA DE INICIO",
+									"name": "FECHAINICIO",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "FECHA DE CREACIÓN",
+									"name": "FECHACREACION",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "FECHA DE CREACIÓN",
+									"name": "FECHACREACION",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "FECHA DE CIERRE",
+									"name": "FECHACIERRE",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "FECHA DE CIERRE",
+									"name": "FECHACIERRE",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
@@ -257,24 +257,24 @@
 							},
 							{
 								"source": {
-									"name": "RESPONSABLE DE CIERRE",
+									"name": "RESPONSABLECIERRE",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "RESPONSABLE DE CIERRE",
+									"name": "RESPONSABLECIERRE",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "MOTIVO DE CIERRE",
+									"name": "MOTIVOCIERRE",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "MOTIVO DE CIERRE",
+									"name": "MOTIVOCIERRE",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
