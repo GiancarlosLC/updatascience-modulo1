@@ -162,7 +162,7 @@
 							{
 								"source": {
 									"name": "FECHA DE INICIO",
-									"type": "DateTime",
+									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
@@ -174,7 +174,7 @@
 							{
 								"source": {
 									"name": "FECHA DE CREACIÓN",
-									"type": "DateTime",
+									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
@@ -186,7 +186,7 @@
 							{
 								"source": {
 									"name": "FECHA DE CIERRE",
-									"type": "DateTime",
+									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
