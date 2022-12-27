@@ -41,108 +41,264 @@
 						"mappings": [
 							{
 								"source": {
-									"name": "Id",
+									"name": "ID",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Id",
+									"name": "ID",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "CreationDate",
+									"name": "NEGOCIACIÓN",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "CreationDate",
+									"name": "NEGOCIACIÓN",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "DownVotes",
+									"name": "CATEGORIA_DESCRIPCION",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "DownVotes",
+									"name": "CATEGORIA_DESCRIPCION",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "LastAccessDate",
+									"name": "ETAPA",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "LastAccessDate",
+									"name": "ETAPA",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "Reputation",
+									"name": "FASE",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Reputation",
+									"name": "FASE",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "UpVotes",
+									"name": "NEGOCIACIÓN ATRASADA",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "UpVotes",
+									"name": "NEGOCIACIÓN ATRASADA",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "Views",
+									"name": "COMPAÑIA",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Views",
+									"name": "COMPAÑIA",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "AccountId",
+									"name": "COMPAÑIA ESTADO",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "AccountId",
+									"name": "COMPAÑIA ESTADO",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "Email",
+									"name": "CANAL",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Email",
+									"name": "CANAL",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "SECTOR",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "SECTOR",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "ASESOR COMERCIAL",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "ASESOR COMERCIAL",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "FECHA DE INICIO",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "FECHA DE INICIO",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "FECHA DE CREACIÓN",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "FECHA DE CREACIÓN",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "FECHA DE CIERRE",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "FECHA DE CIERRE",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "MONTO $",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "MONTO $",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "PROBABILIDAD",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "PROBABILIDAD",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "OPORTUNIDAD",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "OPORTUNIDAD",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "PRIORIDAD",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "PRIORIDAD",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "# VISITAS",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "# VISITAS",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "RESPONSABLE DE CIERRE",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "RESPONSABLE DE CIERRE",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "MOTIVO DE CIERRE",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "MOTIVO DE CIERRE",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "LINK",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "LINK",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
